@@ -85,6 +85,6 @@ now = millis();
   Serial.println(val);
   a=val;
   itoa(a,ab,10);
-  client.publish("/esp8266/temp1", ab);
+  client.publish("/esp8266/temp5", ab);
   }
 }
